@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>aula 6</title>
+</head>
+<body>
+    <header>
+        <h1>Lugares Para Viagar</h1>
+        <hr>
+        <br>
+    </header>
+    <form action="#">
+        <label for="nome">Nome:</label>
+        <input type="text" required="required"> 
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" required="required">
+        <br />
+        <br>
+        <label for="e-mail">E-mail:</label>
+        <input type="email" size="64px" name="email" id="emai" placeholder="exemplo.email@ios.com.br">
+        <br />
+        <br>
+        <br>
+        <hr>
+        <h2>Destino de Viagem</h2>
+        <input type="radio" name="rg" id="dn">
+        <label for="dn">Destino Nacional</label>
+      <br>
+      <input type="radio" name="rg" id="di">
+      <label for="di">Destino Internacional</label>
+      <br>
+      <br>
+      <h2>Locais das primeiras Viagens</h2>
+      <input type="checkbox" name="op1" id="op1">
+      <label for="op1">Arrial do Cabo</label>
+        <br />
+      <input type="checkbox" name="op2" id="op2">
+      <label for="op2">Jericoacoara</label>
+       <br />
+      <input type="checkbox" name="op3" id="op3">
+      <label for="op3">Londres</label>
+        <br />
+      <input type="checkbox" name="op4" id="op4">
+      <label for="op4">L.A</label>]
+      <br>
+      <h2>Forma de Pagamento</h2>
+      <select name="fPagamento" id="fPagamento">
+        <option value="fp0" name="opcional" disabled selected>Selecione uma Opção</option>
+        <option value="fp1">Cartão de Crédito</option>
+        <option value="fp2">Cartão de Depito</option>
+        <option value="fp3">Pix</option>
+        <option value="fp4">Cheque</option>
+        <option value="fp5">Boleto</option>
+      </select>
+      <br><br>
+      <label for="cCid">Escolha uma Cidade:</label>
+        <input autocomplete="on" list="cidade" name="tCid" id="cCid" placeholder="Cidade Escolhido">
+       <datalist id="Cidades">
+        <option value="Fortaleza"></option>
+        <option value="Londres"></option>
+        <option value="San Francisco"></option>
+        <option value="Rio de Janeiro"></option>
+       </datalist>
+       <br /><br>
+       <h3>Nota que você da para o nosso aplicativo</h3>
+       0
+       <input type="range" name="valor_1" id="valor_1">
+       10
+      <br><br><hr>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
